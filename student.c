@@ -34,7 +34,6 @@ int main() {
     inputDetails(names, marks, n);
     displayDetails(names, marks, n);
 
-    // Free allocated memory
     for (int i = 0; i < n; i++) {
         free(names[i]);
     }
